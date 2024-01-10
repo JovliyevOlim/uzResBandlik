@@ -1,0 +1,26 @@
+.question-type{
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Public);
+    font-size: 31.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 650px */
+    margin: 0;
+}
+.question-text{
+    color: #263238;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Public);
+    font-size: 3.175rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 4.3875rem */
+}
+.question-text-color1{
+    background:linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

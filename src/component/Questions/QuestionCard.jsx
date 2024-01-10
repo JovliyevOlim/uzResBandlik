@@ -1,11 +1,14 @@
 import React from 'react';
-
-function QuestionCard(props) {
+import './question.css'
+function QuestionCard({children}) {
     return (
-        <div>
-            Savol Javob uchun umumiy page
-            shundan foydalaniladi
-        </div>
+        <>
+            <div className="container">
+                <div className="row px-4 d-flex align-items-center justify-content-between">
+                    {children}
+                </div>
+            </div>
+        </>
     );
 }
 

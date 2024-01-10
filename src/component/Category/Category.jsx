@@ -35,8 +35,7 @@ function Category() {
                         savol - javoblar
                     </CategoryCard></div>
                     <div className={'col-md-6 col-lg-6 col-xl-4 px-3'}><CategoryCard picture={type4}>
-                        Mehnat <strong style={{color: '#FF725E'}} className={'category-small-text'}></strong> bozori,
-                        mehnat iqtisodiyoti hamda hamda mehnat
+                        Mehnat <strong style={{color: '#FF725E'}} className={'category-small-text'}>bozori,</strong> mehnat iqtisodiyoti hamda hamda mehnat
                         <strong style={{color: '#FF725E'}} className={'category-small-text'}> resurslari </strong>
                         bo’yicha  savol - javoblar
 
