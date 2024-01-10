@@ -2,16 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
 
 
-:root{
-  --font-Poppins:"Poppins" ,san-serif;
-  --font-Public:"Public Sans", cursive;
+:root {
+    --font-Poppins: "Poppins", san-serif;
+    --font-Public: "Public Sans", cursive;
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-a{
-  text-decoration: none;
-  color: unset;
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+
+@media (min-width: 1512px) {
+    .container {
+        max-width: 1512px !important;
+    }
 }

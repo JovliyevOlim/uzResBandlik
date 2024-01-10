@@ -1,10 +1,16 @@
 import React from 'react';
-
-function CategoryCard(props) {
+import './category.css'
+import arrowDownLong from '../../assets/ArrowDownLong.svg'
+function CategoryCard({children,picture}) {
     return (
-        <div>
-            Category Card
-            Bolimlar card uchun umumiy page
+        <div className='category-card'>
+            <div className={'category-card-img'}>
+                <img  src={picture} alt={picture}/>
+            </div>
+            <div className={'d-flex align-items-center justify-content-between px-4 mb-4'}>
+            <p className={'category-card-text'}>{children}</p>
+                <img src={arrowDownLong} alt="arrowDownLong"/>
+            </div>
         </div>
     );
 }
