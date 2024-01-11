@@ -6,7 +6,9 @@ import Navbar from "../Navbar/Navbar";
 function Layout(props) {
     return (
         <>
-            <Navbar/>
+            <div style={{background: "#559EEC",padding:'1.25rem'}}>
+                <Navbar/>
+            </div>
             <Router/>
             <Footer/>
         </>

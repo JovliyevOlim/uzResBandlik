@@ -1,0 +1,94 @@
+.mainPage{
+    background: #559EEC;
+}
+.mainPage-text{
+    margin-top:4rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Public);
+    font-size: 3.9375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 5.11875rem */
+}
+.mainPage-text2{
+    width: 85%;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Poppins);
+    opacity: 0.6;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 4.38rem;
+}
+.mainPage-search{
+    display: flex;
+    height: 3.75rem;
+    padding: 0.9375rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9375rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(105, 105, 105, 0.15);
+
+}
+.mainPage-search img{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.mainPage-search input{
+    color: #151515;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Poppins);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    width: 100%;
+}
+.mainPage-btn{
+    display: flex;
+    width: 13.0625rem;
+    height: 4.375rem;
+    padding: 0.9375rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9375rem;
+    flex-shrink: 0;
+    background: transparent;
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Poppins);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mainPageLink{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 1.25rem;
+}
+.mainPageLink p{
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Poppins);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+    margin: 0;
+}
