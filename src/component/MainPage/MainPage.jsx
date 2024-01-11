@@ -39,7 +39,7 @@ function MainPage(props) {
                     </div>
                 </div>
                 <div className="row p-4 pb-5 mb-5">
-                    <Link to={'author'} className={'mainPageLink'}>
+                    <Link to={'/author'} className={'mainPageLink'}>
                         <p style={{color:'#ffffff'}}>Muallifning Izohi</p>
                         <img src={ArrowRight} alt=""/>
                     </Link>
