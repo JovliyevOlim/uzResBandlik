@@ -7,13 +7,13 @@ import type4 from '../../assets/Type=4 (1).svg'
 import type5 from '../../assets/Type=5 (1).svg'
 import type6 from '../../assets/Type=6 (1).svg'
 import './question.css'
-
+import {type1Questions ,type6Questions} from "./questionsList";
 
 
 function Questions(props) {
     return (
         <>
-            <QuestionCard backColor={'linear-gradient(90deg, #F6D365 0%, #FDA085 100%)'}>
+            <QuestionCard questions={type1Questions} backColor={'linear-gradient(90deg, #F6D365 0%, #FDA085 100%)'}>
                 <div className={'col-md-2'}><h4 className={'question-type question-text-color1'}>1</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Aholi bandligi va aholi <strong className={'question-text-color1'}>bandlik
@@ -70,7 +70,7 @@ function Questions(props) {
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type5} alt="picture"/></div>
             </QuestionCard>
-            <QuestionCard backColor={'#FFC100'}>
+            <QuestionCard questions={type6Questions} backColor={'#FFC100'}>
                 <div className={'col-md-3'}><h4 style={{color: '#FFC100'}} className={'question-type'}>6</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     <strong style={{color:'#FFC100'}} className={'category-small-text'}> Xavfsiz</strong>,
