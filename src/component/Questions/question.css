@@ -2,7 +2,7 @@
     leading-trim: both;
     text-edge: cap;
     font-family: var(--font-Public);
-    font-size: 31.25rem;
+    font-size: 26.25rem;
     font-style: normal;
     font-weight: 800;
     line-height: 130%; /* 650px */
@@ -13,22 +13,17 @@
     leading-trim: both;
     text-edge: cap;
     font-family: var(--font-Public);
-    font-size: 3.175rem;
+    font-size:  2.875rem;
     font-style: normal;
     font-weight: 900;
-    /*line-height: 130%; !* 4.3875rem *!*/
+    line-height: 130%; /* 4.3875rem */
 }
-.question-text-color1{
-    background:linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 .questions-body{
     padding: 6.25rem;
     display: flex;
     justify-content: center;
-    border-radius: 6.25rem;
+    border-radius: 3.125rem;
 }
 .questions-body-card{
     border-radius: 1.25rem;

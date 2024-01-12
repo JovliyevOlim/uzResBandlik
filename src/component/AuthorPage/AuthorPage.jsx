@@ -2,11 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import './authorPage.css'
 import ArrowRight from "../../assets/ArrowRightBlack.svg";
+
 function AuthorPage(props) {
     return (
         <div className={'authorPage'}>
             <div className="container">
-                <div  className="row p-3 my-5 d-flex align-items-center">
+                <div className="row p-5 my-5 d-flex align-items-center">
                     <div className="col-md-4 px-4">
                         <div className={'authorPage-body'}>
                             <div className="authorPage-text">
@@ -32,7 +33,8 @@ function AuthorPage(props) {
 
                                 </p>
                             </div>
-                            <Link target={'_blank'} className={'authorLink'} to={'https://www.undp.org/uzbekistan'}>© ПРООН, 2023 (undp.org/uzbekistan)</Link>
+                            <Link target={'_blank'} className={'authorLink'} to={'https://www.undp.org/uzbekistan'}>©
+                                ПРООН, 2023 (undp.org/uzbekistan)</Link>
                         </div>
                     </div>
                     <div className="col-md-4 px-4">
@@ -59,7 +61,8 @@ function AuthorPage(props) {
                                     undp.org/uzbekistan сайтидан олинг ёки @UNDPUzbekistan ни ижтимоий тармоқларда
                                     кузатиб боринг. </p>
                             </div>
-                            <Link target={'_blank'} className={'authorLink'} to={'https://www.undp.org/uzbekistan'}>© БМТТД, 2023 (undp.org/uzbekistan)</Link>
+                            <Link target={'_blank'} className={'authorLink'} to={'https://www.undp.org/uzbekistan'}>©
+                                БМТТД, 2023 (undp.org/uzbekistan)</Link>
                         </div>
                     </div>
                     <div className="col-md-4 px-4">
@@ -81,14 +84,15 @@ function AuthorPage(props) {
                                     Learn more at undp.org/uzbekistan or follow @UNDPUzbekistan on social
                                     media. </p>
                             </div>
-                            <Link target={'_blank'} className={'authorLink'} to={'https://www.undp.org/uzbekistan'}>© UNDP, 2023 (undp.org/uzbekistan)</Link>
+                            <Link target={'_blank'} className={'authorLink'} to={'https://www.undp.org/uzbekistan'}>©
+                                UNDP, 2023 (undp.org/uzbekistan)</Link>
                         </div>
                     </div>
                 </div>
-                <div className="row p-4 pb-5 mb-5">
+                <div className="row p-5 pb-5 mb-5">
                     <Link to={'/home'} className={'authorPageLink'}>
                         <img src={ArrowRight} alt=""/>
-                        <p style={{color:'#111111'}}>Ortga qaytish</p>
+                        <p style={{color: '#111111'}}>Ortga qaytish</p>
                     </Link>
                 </div>
             </div>

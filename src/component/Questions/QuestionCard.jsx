@@ -8,7 +8,7 @@ function QuestionCard({children,backColor,questions}) {
     return (
         <>
             <div className="container">
-                <div className="row px-4 d-flex align-items-center justify-content-between">
+                <div style={{margin:'10rem 0 6.25rem 0'}} className="row px-5 d-flex align-items-center justify-content-between">
                     {children}
                 </div>
             </div>

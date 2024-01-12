@@ -3,14 +3,14 @@ import './mainPage.css'
 import {Link} from "react-router-dom";
 import Search from "../../assets/SearchBlack.svg";
 import ArrowDown from "../../assets/ArrowDownWhite.svg"
-import MainPicture from '../../assets/My answer-pana 1.svg'
+import MainPicture from '../../assets/Group 28.svg'
 import ArrowRight from '../../assets/ArrowRightWhite.svg'
 
 function MainPage(props) {
     return (
         <div className={'mainPage'}>
-            <div className="container ">
-                <div className="row px-4">
+            <div className="container">
+                <div style={{marginBottom:'8rem'}} className="row px-5">
                     <div className="col-md-6">
                         <h4 style={{color: '#ffffff'}} className={'mainPage-text'}>Mehnat va Bandlik masalalari bo’yicha
                             460 Savolga Javob</h4>
@@ -38,7 +38,7 @@ function MainPage(props) {
                         </div>
                     </div>
                 </div>
-                <div className="row p-4 pb-5 mb-5">
+                <div  className="row p-5 my-5">
                     <Link to={'/author'} className={'mainPageLink'}>
                         <p style={{color:'#ffffff'}}>Muallifning Izohi</p>
                         <img src={ArrowRight} alt=""/>

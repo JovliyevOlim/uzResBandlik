@@ -8,8 +8,8 @@ function Footer(props) {
     return (
         <div className={'footer'}>
             <div className="container">
-                <div className="row px-4 mb-5">
-                    <div className="col-md-12 p-4 rounded-5 bg-white">
+                <div className="row px-5 mb-5">
+                    <div className="col-md-12  rounded-5 bg-white">
                         <div className="row d-flex  align-items-center justify-content-between">
                             <div className="col-md-3">
                                 <img src={Logo} alt=""/>
@@ -30,8 +30,8 @@ function Footer(props) {
                         </div>
                     </div>
                 </div>
-                <div className="row px-4">
-                    <div className="col-md-12 p-4">
+                <div style={{paddingTop:'6.25rem'}} className="row px-5">
+                    <div className="col-md-12">
                         <div className="footer-items">
                             <Link target={'_blank'} className={'footerLink'} to={'https://www.undp.org/uzbekistan'}>©
                                 ПРООН, 2023 (undp.org/uzbekistan)</Link>

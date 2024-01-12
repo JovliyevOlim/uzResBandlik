@@ -8,7 +8,7 @@ import {NavLink} from "react-router-dom";
 function Navbar(props) {
     return (
         <div className="container">
-            <div className="row px-4">
+            <div className="row px-5">
                 <div className="col-md-12 p-4 rounded-5 bg-white">
                     <div  className="row d-flex  align-items-center justify-content-between">
                         <div className="col-md-3">

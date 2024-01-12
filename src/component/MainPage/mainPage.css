@@ -1,17 +1,17 @@
 .mainPage{
-    background: #559EEC;
+    background: #5654A4;
 }
 .mainPage-text{
-    margin-top:4rem;
-    margin-bottom: 2rem;
-    width: 80%;
+    margin-top:2.25rem;
+    margin-bottom: 3rem;
+    width: 90%;
     leading-trim: both;
     text-edge: cap;
     font-family: var(--font-Public);
-    font-size: 3.9375rem;
+    font-size: 3.8375rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 130%; /* 5.11875rem */
+    line-height: 120%; /* 5.11875rem */
 }
 .mainPage-text2{
     width: 85%;
@@ -24,7 +24,7 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 0;
-    margin-bottom: 4.38rem;
+    margin-bottom: 4rem;
 }
 .mainPage-search{
     display: flex;
