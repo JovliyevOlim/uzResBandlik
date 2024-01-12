@@ -7,7 +7,7 @@ import type4 from '../../assets/Type=4 (1).svg'
 import type5 from '../../assets/Type=5 (1).svg'
 import type6 from '../../assets/Type=6 (1).svg'
 import './question.css'
-import {type1Questions, type6Questions} from "./questionsList";
+import {type1Questions, type6Questions, type2Questions} from "./questionsList";
 
 
 function Questions(props) {
@@ -23,7 +23,7 @@ function Questions(props) {
                 <div className={'col-md-5 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type1} alt="picture"/></div>
             </QuestionCard>
-            <QuestionCard backColor={'#60C0E1'}>
+            <QuestionCard questions={type2Questions} backColor={'#60C0E1'}>
                 <div className={'col-md-2'}><h4 style={{color: '#60C0E1'}} className={'question-type'}>2</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Aholining <strong style={{color: '#60C0E1'}}>ijtimoiy
