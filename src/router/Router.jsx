@@ -2,13 +2,14 @@ import React from 'react';
 import {Navigate, Route, Routes} from 'react-router-dom'
 import Home from "../pages/Home";
 import AuthorPage from "../component/AuthorPage/AuthorPage";
+import Category from "../component/Category/Category";
 
 
 function Router(props) {
     return (
         <Routes>
-            <Route path={'/'} element={<Navigate to={'/home'}/>}/>
-            <Route path={'/home'} element={<Home/>}/>
+            <Route path={'/'} element={<Navigate to={'/main'}/>}/>
+            <Route path={'/main'} element={<Home/>}/>
             <Route path={'/author'} element={<AuthorPage/>}/>
         </Routes>
     );

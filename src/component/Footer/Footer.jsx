@@ -2,15 +2,17 @@ import React, {useState} from 'react';
 import './footer.css'
 import Logo from "../../assets/Logo.svg";
 import Search from "../../assets/SearchBlack.svg";
-import {Link} from "react-router-dom";
+import {Link, NavLink, useLocation} from "react-router-dom";
 import SearchCard from "../SearchCard/SearchCard";
 import {searchQuestion} from "../Questions/questionsList";
+import {NavHashLink} from "react-router-hash-link";
 
 function Footer(props) {
 
 
     const [search, setSearch] = useState('')
     const [result, setResult] = useState([])
+    const location = useLocation()
 
     function onSearch(e) {
         setSearch(e.target.value)
@@ -29,9 +31,9 @@ function Footer(props) {
                             </div>
                             <div className="col-md-5 d-flex justify-content-center">
                                 <div className="navbar-items">
-                                    <a href="home">Asosiy</a>
-                                    <a href="Section">Bo'limlar</a>
-                                    <a href="Autor">Muallifning Qarashlari</a>
+                                    <NavHashLink className={`${location.pathname}${location.hash}` === "/main#home" ? "navbar-item-active" : "navbar-item"}  to="/main#home">Asosiy</NavHashLink>
+                                    <NavHashLink  className={`${location.pathname}${location.hash}` === "/main#category" ? "navbar-item-active" : "navbar-item"} to="/main#category">Bo'limlar</NavHashLink>
+                                    <NavHashLink  className={`${location.pathname}${location.hash}` === "/author" ? "navbar-item-active" : "navbar-item"} to="/author">Muallifning qarashlari</NavHashLink>
                                 </div>
                             </div>
                             <div className="col-md-3">

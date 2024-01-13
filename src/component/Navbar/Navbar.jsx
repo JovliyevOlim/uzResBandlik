@@ -3,15 +3,16 @@ import Logo from '../../assets/Logo.svg'
 import "../../App.css"
 import "./navbar.css"
 import Search from "../../assets/SearchBlack.svg"
-import {NavLink} from "react-router-dom";
+import {NavLink,useLocation} from "react-router-dom";
 import SearchCard from "../SearchCard/SearchCard";
 import {searchQuestion} from "../Questions/questionsList";
+import {NavHashLink} from "react-router-hash-link";
 
 function Navbar(props) {
 
     const [search, setSearch] = useState('')
     const [result, setResult] = useState([])
-
+    const location = useLocation()
     function onSearch(e) {
         setSearch(e.target.value)
         const questions = searchQuestion(e.target.value)
@@ -29,9 +30,9 @@ function Navbar(props) {
                         </div>
                         <div className="col-md-5">
                             <div className="navbar-items">
-                                <a href="home">Asosiy</a>
-                                <a href="home#category">Bo'limlar</a>
-                                <a href="author">Muallifning qarashlari</a>
+                                <NavHashLink className={`${location.pathname}${location.hash}` === "/main#home" ? "navbar-item-active" : "navbar-item"}  to="/main#home">Asosiy</NavHashLink>
+                                <NavHashLink  className={`${location.pathname}${location.hash}` === "/main#category" ? "navbar-item-active" : "navbar-item"} to="/main#category">Bo'limlar</NavHashLink>
+                                <NavHashLink  className={`${location.pathname}${location.hash}` === "/author" ? "navbar-item-active" : "navbar-item"} to="/author">Muallifning qarashlari</NavHashLink>
                             </div>
                         </div>
                         <div className="col-md-3">

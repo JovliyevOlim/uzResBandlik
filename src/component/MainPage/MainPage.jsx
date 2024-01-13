@@ -22,7 +22,7 @@ function MainPage(props) {
 
 
     return (
-        <div className={'mainPage'}>
+        <div className={'mainPage'} >
             <div className="container">
                 <div style={{marginBottom:'8rem'}} className="row px-5">
                     <div className="col-md-6">

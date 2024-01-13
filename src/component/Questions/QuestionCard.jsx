@@ -15,7 +15,7 @@ function QuestionCard({children,backColor,questions}) {
             <div style={{background:backColor}} className="questions-body">
                 <div style={{width: '70%'}} className={'container'}>
                     <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2, 992: 2}}>
-                        <Masonry gutter={'1.25rem'}>
+                        <Masonry  gutter={'1.25rem'}>
                             {
                                 questions?.map(item =>
                                     <div className={'questions-body-card'}>
