@@ -9,6 +9,8 @@ function Layout(props) {
             <div style={{background: "#5654A4", padding: '1.25rem'}}>
                 <Navbar/>
             </div>
+
+            
             <Router/>
             <div style={{paddingTop:'5rem'}}>
                 <Footer/>
