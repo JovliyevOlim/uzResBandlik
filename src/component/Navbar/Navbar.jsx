@@ -18,7 +18,7 @@ function Navbar(props) {
                             <div className="navbar-items">
                                 <a href="home">Asosiy</a>
                                 <a href="Section">Bo'limlar</a>
-                                <a href="Autor">Muallifning Qarashlari</a>
+                                <a href="Autor">Muallifning qarashlari</a>
                             </div>
                         </div>
                         <div className="col-md-2">
