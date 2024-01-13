@@ -7,7 +7,7 @@ import type4 from '../../assets/Type=4 (1).svg'
 import type5 from '../../assets/Type=5 (1).svg'
 import type6 from '../../assets/Type=6 (1).svg'
 import './question.css'
-import {type1Questions, type6Questions, type2Questions} from "./questionsList";
+import {type1Questions, type6Questions, type2Questions, type3Questions, type4Questions, type5Questions} from "./questionsList";
 
 
 function Questions(props) {
@@ -34,7 +34,7 @@ function Questions(props) {
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type2} alt="picture"/></div>
             </QuestionCard>
-            <QuestionCard backColor={'#5172B0'}>
+            <QuestionCard questions={type3Questions} backColor={'#5172B0'}>
                 <div className={'col-md-2'}><h4 style={{color: '#5172B0'}} className={'question-type'}>3</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Ishsiz fuqarolarni<strong style={{color: '#5172B0'}}> kasb -
@@ -46,7 +46,7 @@ function Questions(props) {
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type3} alt="picture"/></div>
             </QuestionCard>
-            <QuestionCard backColor={'#F59487'}>
+            <QuestionCard questions={type4Questions} backColor={'#F59487'}>
                 <div className={'col-md-2'}><h4 style={{color: '#F59487'}} className={'question-type'}>4</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Mehnat <strong style={{color: '#F59487'}} className={'category-small-text'}>bozori,</strong> mehnat
@@ -58,7 +58,7 @@ function Questions(props) {
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type4} alt="picture"/></div>
             </QuestionCard>
-            <QuestionCard backColor={'#5E5CA7'}>
+            <QuestionCard questions={type5Questions} backColor={'#5E5CA7'}>
                 <div className={'col-md-2'}><h4 style={{color: '#5E5CA7'}} className={'question-type'}>5</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>Mehnat huquqi</strong> va

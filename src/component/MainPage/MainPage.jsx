@@ -12,10 +12,10 @@ function MainPage(props) {
             <div className="container">
                 <div style={{marginBottom:'8rem'}} className="row px-5">
                     <div className="col-md-6">
-                        <h4 style={{color: '#ffffff'}} className={'mainPage-text'}>Mehnat va Bandlik masalalari bo’yicha
-                            460 Savolga Javob</h4>
+                        <h4 style={{color: '#ffffff'}} className={'mainPage-text'}>Mehnat va bandlik masalalari bo’yicha
+                            460 savolga Javob</h4>
                         <p style={{color: '#ffffff'}} className={'mainPage-text2'}>
-                            Mehnat va Bandlik masalalari bo’yicha 460 savolga javob beradigan amaliy qo’llanma
+                            Mehnat va bandlik masalalari bo’yicha 460 savolga javob beradigan amaliy qo’llanma
                         </p>
                         <div className={'row d-flex '}>
                             <div className="col-md-4">
