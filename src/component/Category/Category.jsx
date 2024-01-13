@@ -11,7 +11,7 @@ import type6 from '../../assets/Type=6.svg'
 
 function Category() {
     return (
-        <section>
+        <section id={'category'}>
             <div className={'container'}>
                 <div  className={'row px-5'}>
                     <h4 className={'category-title'}>Bo’limlar</h4>

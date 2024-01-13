@@ -1,30 +1,51 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Logo from '../../assets/Logo.svg'
 import "../../App.css"
 import "./navbar.css"
 import Search from "../../assets/SearchBlack.svg"
 import {NavLink} from "react-router-dom";
+import SearchCard from "../SearchCard/SearchCard";
+import {searchQuestion} from "../Questions/questionsList";
 
 function Navbar(props) {
+
+    const [search, setSearch] = useState('')
+    const [result, setResult] = useState([])
+
+    function onSearch(e) {
+        setSearch(e.target.value)
+        const questions = searchQuestion(e.target.value)
+        setResult(questions)
+    }
+
+
     return (
         <div className="container">
             <div className="row px-5">
                 <div className="col-md-12 p-4 rounded-5 bg-white">
-                    <div  className="row d-flex  align-items-center justify-content-between">
+                    <div className="row d-flex  align-items-center justify-content-between">
                         <div className="col-md-3">
                             <img src={Logo} alt=""/>
                         </div>
                         <div className="col-md-5">
                             <div className="navbar-items">
                                 <a href="home">Asosiy</a>
-                                <a href="Section">Bo'limlar</a>
-                                <a href="Autor">Muallifning qarashlari</a>
+                                <a href="home#category">Bo'limlar</a>
+                                <a href="author">Muallifning qarashlari</a>
                             </div>
                         </div>
-                        <div className="col-md-2">
-                            <div className="navbar-search">
-                                <img src={Search} alt=""/>
-                                <input type="text" placeholder="Qidirish"/>
+                        <div className="col-md-3">
+                            <div className='navbar-right'>
+                                <div className="navbar-search">
+                                    <div className={'navbar-input'}>
+                                        <img src={Search} alt=""/>
+                                        <input onChange={onSearch} value={search} type="text" placeholder="Qidirish"/>
+                                    </div>
+                                    {
+                                        search && <SearchCard maxHeight={'400px'} questions={result}/>
+
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>

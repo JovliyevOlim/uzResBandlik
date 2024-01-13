@@ -1,0 +1,71 @@
+.search-card{
+    border-top: 1px solid rgba(38, 50, 56, 0.37);
+    padding: 0.94rem 1.88rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    overflow: auto;
+}
+.search-card::-webkit-scrollbar {
+    border-radius: 4px;
+    width: 8px;
+}
+.search-card::-webkit-scrollbar-thumb {
+    background:  #5654A4;
+    border-radius: 8px;
+}
+.search-card::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+.search-card-number{
+    display: flex;
+    width: 3.125rem;
+    height: 1.875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Poppins);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 0.3125rem;
+}
+.search-card-typeName{
+    display: inline-flex;
+    height: 1.875rem;
+    padding: 0rem 0.9375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background: #E0E0E0;
+    color: #FFF;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--font-Poppins);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.search-card-question{
+    color: #4A4A4A;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Public Sans',sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5625rem; /* 156.25% */
+    margin: 0;
+}
