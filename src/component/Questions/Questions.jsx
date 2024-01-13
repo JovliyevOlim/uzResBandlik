@@ -7,7 +7,7 @@ import type4 from '../../assets/Type=4 (1).svg'
 import type5 from '../../assets/Type=5 (1).svg'
 import type6 from '../../assets/Type=6 (1).svg'
 import './question.css'
-import {type1Questions, type6Questions, type2Questions} from "./questionsList";
+import {type1Questions, type6Questions, type2Questions, type3Questions, type4Questions, type5Questions} from "./questionsList";
 
 
 function Questions(props) {
