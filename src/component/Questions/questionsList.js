@@ -7289,39 +7289,40 @@ const type6Questions = [
 
 
 
-function searchQuestion(word){
+function searchQuestion(words){
 
+    const word = words.toUpperCase()
 
     const question =[]
 
     type1Questions.filter((item)=>{
-        if (item.title.includes(word)){
+        if (item.title.toUpperCase().includes(word)){
             question.push({...item,section:1,color:'#64BFA7'})
         }
     })
 
     type2Questions.filter((item)=>{
-        if (item.title.includes(word)){
+        if (item.title.toUpperCase().includes(word)){
             question.push({...item,section:2,color:'#60C0E1'})
         }
     })
     type3Questions.filter((item)=>{
-        if (item.title.includes(word)){
+        if (item.title.toUpperCase().includes(word)){
             question.push({...item,section:3,color:'#5172B0'})
         }
     })
     type4Questions.filter((item)=>{
-        if (item.title.includes(word)){
+        if (item.title.toUpperCase().includes(word)){
             question.push({...item,section:4,color:'#F59487'})
         }
     })
     type5Questions.filter((item)=>{
-        if (item.title.includes(word)){
+        if (item.title.toUpperCase().includes(word)){
             question.push({...item,section:5,color:'#5E5CA7'})
         }
     })
     type6Questions.filter((item)=>{
-        if (item.title.includes(word)){
+        if (item.title.toUpperCase().includes(word)){
             question.push({...item,section:6,color:'#388CB9'})
         }
     })
