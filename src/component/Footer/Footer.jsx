@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './footer.css'
 import Logo from "../../assets/Logo.svg";
 import Search from "../../assets/SearchBlack.svg";
-import {Link, NavLink, useLocation} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import SearchCard from "../SearchCard/SearchCard";
 import {searchQuestion} from "../Questions/questionsList";
 import {NavHashLink} from "react-router-hash-link";

@@ -3,7 +3,7 @@ import Logo from '../../assets/Logo.svg'
 import "../../App.css"
 import "./navbar.css"
 import Search from "../../assets/SearchBlack.svg"
-import {NavLink,useLocation} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import SearchCard from "../SearchCard/SearchCard";
 import {searchQuestion} from "../Questions/questionsList";
 import {NavHashLink} from "react-router-hash-link";

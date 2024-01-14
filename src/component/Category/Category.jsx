@@ -1,6 +1,5 @@
 import React from 'react';
 import CategoryCard from "./CategoryCard";
-import {Col, Container, Row} from "reactstrap";
 import './category.css'
 import type1 from '../../assets/Type=1.svg'
 import type2 from '../../assets/Type=2.svg'

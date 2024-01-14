@@ -2,7 +2,6 @@ import React from 'react';
 import {Navigate, Route, Routes} from 'react-router-dom'
 import Home from "../pages/Home";
 import AuthorPage from "../component/AuthorPage/AuthorPage";
-import Category from "../component/Category/Category";
 
 
 function Router(props) {
