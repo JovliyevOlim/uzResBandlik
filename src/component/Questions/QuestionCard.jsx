@@ -13,7 +13,7 @@ function QuestionCard({children,backColor,questions}) {
                 </div>
             </div>
             <div style={{background:backColor}} className="questions-body">
-                <div style={{width: '70%'}} className={'container'}>
+                <div style={{width: '80%'}} className={'container'}>
                     <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2, 992: 2}}>
                         <Masonry  gutter={'1.25rem'}>
                             {
