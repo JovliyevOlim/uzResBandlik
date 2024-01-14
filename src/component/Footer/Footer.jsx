@@ -31,8 +31,8 @@ function Footer(props) {
                             </div>
                             <div className="col-md-5 d-flex justify-content-center">
                                 <div className="navbar-items">
-                                    <NavHashLink className={`${location.pathname}${location.hash}` === "/main#home" ? "navbar-item-active" : "navbar-item"}  to="/main#home">Asosiy</NavHashLink>
-                                    <NavHashLink  className={`${location.pathname}${location.hash}` === "/main#category" ? "navbar-item-active" : "navbar-item"} to="/main#category">Bo'limlar</NavHashLink>
+                                    <NavHashLink className={`${location.pathname}${location.hash}` === "/#home" ? "navbar-item-active" : "navbar-item"}  to="/#home">Asosiy</NavHashLink>
+                                    <NavHashLink  className={`${location.pathname}${location.hash}` === "/#category" ? "navbar-item-active" : "navbar-item"} to="/#category">Bo'limlar</NavHashLink>
                                     <NavHashLink  className={`${location.pathname}${location.hash}` === "/author" ? "navbar-item-active" : "navbar-item"} to="/author">Muallifning qarashlari</NavHashLink>
                                 </div>
                             </div>

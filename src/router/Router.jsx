@@ -7,8 +7,7 @@ import AuthorPage from "../component/AuthorPage/AuthorPage";
 function Router(props) {
     return (
         <Routes>
-            <Route path={'/'} element={<Navigate to={'/main'}/>}/>
-            <Route path={'/main'} element={<Home/>}/>
+            <Route path={'/'} element={<Home/>}/>
             <Route path={'/author'} element={<AuthorPage/>}/>
         </Routes>
     );
