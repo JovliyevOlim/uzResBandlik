@@ -97,7 +97,7 @@ function AuthorPage(props) {
                     <div className="row p-5 pb-5 mb-5">
                         <Link to={'/#home'} className={'authorPageLink'}>
                             <img src={ArrowRight} alt=""/>
-                            <p style={{color: '#111111'}}>Ortga qaytish</p>
+                            <p style={{color: '#111111'}}>Ортга қайтиш</p>
                         </Link>
                     </div>
                 </div>

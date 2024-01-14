@@ -8,7 +8,7 @@
     width: 90%;
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Public);
+    font-family: 'Public Sans';
     font-size: 3.8375rem;
     font-style: normal;
     font-weight: 800;
@@ -18,7 +18,7 @@
     width: 85%;
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Poppins);
+    font-family: 'Poppins';
     opacity: 0.6;
     font-size: 1.375rem;
     font-style: normal;
@@ -47,7 +47,7 @@
     color: #151515;
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Poppins);
+    font-family: 'Poppins';
     font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
@@ -70,7 +70,7 @@
     color: #FFF;
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Poppins);
+    font-family: 'Poppins';
     font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
@@ -86,7 +86,7 @@
 .mainPageLink p{
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Poppins);
+    font-family: "Poppins";
     font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;

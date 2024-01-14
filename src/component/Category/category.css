@@ -2,7 +2,7 @@
     color: #1F1F1F;
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Public);
+    font-family: 'Public Sans';
     font-size: 3.375rem;
     font-style: normal;
     font-weight: 800;
@@ -32,7 +32,7 @@
     color: #4A4A4A;
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Poppins);
+    font-family: 'Poppins';
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
@@ -42,7 +42,7 @@
 .category-color-text{
     leading-trim: both;
     text-edge: cap;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;

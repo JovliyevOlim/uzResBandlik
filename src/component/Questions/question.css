@@ -1,7 +1,7 @@
 .question-type{
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Public);
+    font-family: 'Public Sans';
     font-size: 26.25rem;
     font-style: normal;
     font-weight: 800;
@@ -12,7 +12,7 @@
     color: #263238;
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Public);
+    font-family: 'Public Sans';
     font-size:  2.875rem;
     font-style: normal;
     font-weight: 900;
@@ -46,7 +46,7 @@
     text-align: center;
     leading-trim: both;
     text-edge: cap;
-    font-family: var(--font-Poppins);
+    font-family: 'Poppins';
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
