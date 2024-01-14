@@ -30,9 +30,9 @@ function Navbar(props) {
                         </div>
                         <div className="col-12 col-md-6 col-lg-5">
                             <div className="navbar-items">
-                                <NavHashLink className={`${location.pathname}${location.hash}` === "/#home" ? "navbar-item-active" : "navbar-item"}  to="/#home">Asosiy</NavHashLink>
-                                <NavHashLink  className={`${location.pathname}${location.hash}` === "/#category" ? "navbar-item-active" : "navbar-item"} to="/#category">Bo'limlar</NavHashLink>
-                                <NavHashLink  className={`${location.pathname}${location.hash}` === "/author" ? "navbar-item-active" : "navbar-item"} to="/author">Muallifning qarashlari</NavHashLink>
+                                <NavHashLink className={`${location.pathname}${location.hash}` === "/#home" ? "navbar-item-active" : "navbar-item"}  to="/#home">Асосий</NavHashLink>
+                                <NavHashLink  className={`${location.pathname}${location.hash}` === "/#category" ? "navbar-item-active" : "navbar-item"} to="/#category">Бўлимлар</NavHashLink>
+                                <NavHashLink  className={`${location.pathname}${location.hash}` === "/author" ? "navbar-item-active" : "navbar-item"} to="/author">Муаллифнинг қарашлари</NavHashLink>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg-3">
@@ -40,7 +40,7 @@ function Navbar(props) {
                                 <div className="navbar-search">
                                     <div className={'navbar-input'}>
                                         <img src={Search} alt=""/>
-                                        <input onChange={onSearch} value={search} type="text" placeholder="Qidirish"/>
+                                        <input onChange={onSearch} value={search} type="text" placeholder="Қидириш"/>
                                     </div>
                                     {
                                         search && <SearchCard maxHeight={'400px'} questions={result}/>

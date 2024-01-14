@@ -22,13 +22,13 @@ function QuestionCard({children,backColor,questions}) {
                                         <div className={'d-flex justify-content-start align-items-center mb-3 gap-4'}>
                                             <div style={{background:backColor}}
                                                 className={'question-number'}>{item.id >= 10 ? item.id : `0${item.id}`}</div>
-                                            <div className={'question-text-btn'}>Savol:</div>
+                                            <div className={'question-text-btn'}>Савол:</div>
                                         </div>
                                         <p className={'question-title'}>
                                             {item.title}
                                         </p>
                                         <div className={'mb-2'}>
-                                            <div className={'question-text-btn'}>Javob:</div>
+                                            <div className={'question-text-btn'}>Жавоб:</div>
                                         </div>
                                         <p className={'questions-body-text'}>
                                             {item.body}

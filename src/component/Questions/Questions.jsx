@@ -18,18 +18,18 @@ function Questions(props) {
                     <h4 style={{color: '#64BFA7'}} className={'question-type'}>1</h4>
                 </div>
                 <div className={'col-md-5'}><p className={'question-text'}>
-                    Aholi bandligi va aholi <strong style={{color: '#64BFA7'}}>bandlik
-                    darajasini</strong> oshirishga qaratilgan savol - javoblar </p></div>
+                    Аҳоли бандлиги ва аҳоли <strong style={{color: '#64BFA7'}}>бандлик даражасини
+                </strong> оширишга қаратилган савол - жавоблар </p></div>
                 <div className={'col-md-5 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type1} alt="picture"/></div>
             </QuestionCard>
             <QuestionCard questions={type2Questions} backColor={'#60C0E1'}>
                 <div className={'col-md-2'}><h4 style={{color: '#60C0E1'}} className={'question-type'}>2</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
-                    Aholining <strong style={{color: '#60C0E1'}}>ijtimoiy
-                    himoya </strong> tizimi hamda
-                    mamlakatda <strong style={{color: '#60C0E1'}}>ijtimoiy
-                    qatlam</strong> uchun yaratilgan daftarlar bo’yicha savol - javoblar
+                    Аҳолининг <strong style={{color: '#60C0E1'}}>ижтимоий ҳимоя
+                </strong> тизими ҳамда
+                    мамлакатда <strong style={{color: '#60C0E1'}}>ijtimoiy
+                    qatlam</strong> учун яратилган дафтарлар бо’йича савол - жавоблар
                 </p></div>
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type2} alt="picture"/></div>
@@ -37,11 +37,10 @@ function Questions(props) {
             <QuestionCard questions={type3Questions} backColor={'#5172B0'}>
                 <div className={'col-md-2'}><h4 style={{color: '#5172B0'}} className={'question-type'}>3</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
-                    Ishsiz fuqarolarni<strong style={{color: '#5172B0'}}> kasb -
-                    hunarga</strong> o’qitish hamda
-                    <strong style={{color: '#5172B0'}}> Milliy malaka </strong>
-                    tizimi bo’yicha
-                    savol - javoblar
+                    Ишсиз фуқароларни<strong style={{color: '#5172B0'}}> касб - ҳунарга
+                </strong> о’қитиш ҳамда
+                    <strong style={{color: '#5172B0'}}> Миллий малака </strong>
+                    тизими бо’йича савол - жавоблар
                 </p></div>
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type3} alt="picture"/></div>
@@ -49,10 +48,10 @@ function Questions(props) {
             <QuestionCard questions={type4Questions} backColor={'#F59487'}>
                 <div className={'col-md-2'}><h4 style={{color: '#F59487'}} className={'question-type'}>4</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
-                    Mehnat <strong style={{color: '#F59487'}} className={'category-small-text'}>bozori,</strong> mehnat
-                    iqtisodiyoti hamda hamda mehnat
-                    <strong style={{color: '#F59487'}} className={'category-small-text'}> resurslari </strong>
-                    bo’yicha savol - javoblar
+                    Меҳнат <strong style={{color: '#F59487'}} className={'category-small-text'}>бозори,</strong> меҳнат иқтисодиёти ҳамда ҳамда
+                    меҳнат
+                    <strong style={{color: '#F59487'}} className={'category-small-text'}> ресурслари </strong>
+                    бо’йича  савол - жавоблар
 
                 </p></div>
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
@@ -61,11 +60,8 @@ function Questions(props) {
             <QuestionCard questions={type5Questions} backColor={'#5E5CA7'}>
                 <div className={'col-md-2'}><h4 style={{color: '#5E5CA7'}} className={'question-type'}>5</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
-                    <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>Mehnat huquqi</strong> va
-                    mehnat munosabatlari
-                    hamda <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>mehnatni
-                    muhofaza</strong> qilish bo’yicha savol
-                    - javoblar
+                    <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>Меҳнат ҳуқуқи</strong> ва меҳнат муносабатлари
+                    ҳамда <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>меҳнатни муҳофаза</strong> қилиш бо’йича савол - жавоблар
 
 
                 </p></div>
@@ -75,10 +71,9 @@ function Questions(props) {
             <QuestionCard questions={type6Questions} backColor={'#388CB9'}>
                 <div className={'col-md-2'}><h4 style={{color: '#388CB9'}} className={'question-type'}>6</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
-                    <strong style={{color: '#388CB9'}} className={'category-small-text'}> Xavfsiz</strong>,
-                    tartibli va <strong style={{color: '#388CB9'}} className={'category-small-text'}> qonuniy
-                    mehnat </strong>
-                    migratsiyasi bo’yicha savol - javoblar
+                    <strong style={{color: '#388CB9'}} className={'category-small-text'}> Хавфсиз</strong>,
+                    тартибли ва  <strong style={{color: '#388CB9'}} className={'category-small-text'}> қонуний меҳнат</strong>
+                    миграцияси бо’йича савол - жавоблар
                 </p></div>
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type6} alt="picture"/></div>
