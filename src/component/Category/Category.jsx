@@ -12,10 +12,10 @@ function Category() {
     return (
         <section id={'category'}>
             <div className={'container'}>
-                <div  className={'row px-5'}>
+                <div  className={'row px-2 px-lg-5'}>
                     <h4 className={'category-title'}>Bo’limlar</h4>
                 </div>
-                <div className={'row px-5 row-gap-5 d-flex align-items-stretch flex-wrap'}>
+                <div className={'row px-2 px-lg-5 row-gap-5 d-flex align-items-stretch flex-wrap'}>
                     <div className={'col-md-6 col-lg-6 col-xl-4 px-3'}><CategoryCard picture={type1}>
                         Aholi bandligi va aholi <strong style={{color: '#64BFA7'}} className={'category-small-text'}>bandlik
                         darajasini</strong> oshirishga qaratilgan savol - javoblar

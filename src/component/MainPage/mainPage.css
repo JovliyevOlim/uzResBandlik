@@ -1,4 +1,5 @@
 .mainPage{
+    padding: 1.25rem;
     background: #5654A4;
 }
 .mainPage-text{
@@ -92,4 +93,108 @@
     line-height: normal;
     opacity: 0.7;
     margin: 0;
+}
+
+@media (max-width: 575.98px) {
+    .mainPage-text{
+        margin-top: 1.25rem;
+        font-size: 1.9rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .mainPage-text2{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .mainPageLink p{
+        font-size: 1rem;
+    }
+    .mainPageLink img{
+        width: 20px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .mainPage-text{
+        margin-top: 1.25rem;
+        font-size: 2.5rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .mainPage-text2{
+        width: 85%;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .mainPageLink p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mainPage-text{
+        margin-top: 1.25rem;
+        font-size: 3.2rem;
+        width: 90%;
+        margin-bottom: 1.5rem;
+    }
+    .mainPage-text2{
+        width: 85%;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .mainPageLink p{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .mainPage-text{
+        font-size: 2rem;
+        width: 85%;
+        margin-bottom: 1.5rem;
+    }
+    .mainPage-text2{
+        width: 85%;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+    .mainPageLink p{
+        font-size: 1rem;
+    }
+    .mainPage-img{
+        width: 45rem;
+    }
+    .mainPage-img img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1509.9px){
+    .mainPage-text{
+        font-size: 2.5rem;
+        width: 85%;
+        margin-bottom: 1.5rem;
+    }
+    .mainPage-text2{
+        width: 85%;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .mainPageLink p{
+        font-size: 1rem;
+    }
+    .mainPage-img{
+        width: 45rem;
+    }
+    .mainPage-img img{
+        width: 100%;
+    }
+}
+@media (min-width: 1510px) {
+    .questions-body-container{
+        width: 80% !important;
+    }
 }

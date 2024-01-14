@@ -12,12 +12,12 @@ function AuthorPage(props) {
             </div>
             <div className={'authorPage'}>
                 <div className="container">
-                    <div className="row px-5 my-5 d-flex align-items-center">
-                        <div className="col-md-4 px-4">
+                    <div className="row px-2 px-md-5 my-5 d-flex align-items-center">
+                        <div className="col-lg-4 my-2 my-lg-0 px-4">
                             <div className={'authorPage-body'}>
                                 <div className="authorPage-text">
                                     <p>
-                                        {'           '} Изложенные в настоящей публикации взгляды и выводы выражают только
+                                      Изложенные в настоящей публикации взгляды и выводы выражают только
                                         точку зрения авторов и не являются официальной точкой зрения ООН, включая ПРООН или
                                         стран членов ООН.
                                     </p>
@@ -42,7 +42,7 @@ function AuthorPage(props) {
                                     ПРООН, 2023 (undp.org/uzbekistan)</Link>
                             </div>
                         </div>
-                        <div className="col-md-4 px-4">
+                        <div className="col-lg-4 my-2 my-lg-0 px-4">
                             <div className={'authorPage-body'}>
                                 <div className="authorPage-text">
                                     <p>
@@ -70,7 +70,7 @@ function AuthorPage(props) {
                                     БМТТД, 2023 (undp.org/uzbekistan)</Link>
                             </div>
                         </div>
-                        <div className="col-md-4 px-4">
+                        <div className="col-lg-4 my-2 my-lg-0 px-4">
                             <div className={'authorPage-body'}>
                                 <div className="authorPage-text">
                                     <p>

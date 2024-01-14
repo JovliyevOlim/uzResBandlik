@@ -1,10 +1,12 @@
-.authorPage-body{
+.authorPage-body {
 
 }
-.authorPage-text{
+
+.authorPage-text {
     margin-bottom: 3.12rem;
 }
-.authorPage-text  p{
+
+.authorPage-text p {
     color: #111;
     leading-trim: both;
     text-edge: cap;
@@ -18,7 +20,7 @@
     margin: 0;
 }
 
-.authorLink{
+.authorLink {
     color: #0D4789 !important;
     text-decoration: none !important;
     leading-trim: both;
@@ -29,16 +31,19 @@
     font-weight: 500;
     line-height: normal;
 }
-.authorPageLink img{
+
+.authorPageLink img {
     transform: rotateZ(180deg);
 }
-.authorPageLink{
+
+.authorPageLink {
     display: flex;
     text-decoration: none;
     align-items: center;
     gap: 1.25rem;
 }
-.authorPageLink p{
+
+.authorPageLink p {
     leading-trim: both;
     text-edge: cap;
     font-family: var(--font-Poppins);
@@ -48,4 +53,11 @@
     line-height: normal;
     opacity: 0.7;
     margin: 0;
+}
+
+@media (max-width: 575.98px) {
+    .authorPageLink p {
+        font-size: 1.2rem;
+    }
+
 }

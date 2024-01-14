@@ -8,12 +8,12 @@ function QuestionCard({children,backColor,questions}) {
     return (
         <>
             <div className="container">
-                <div style={{margin:'10rem 0 6.25rem 0'}} className="row px-5 d-flex align-items-center justify-content-between">
+                <div  className="row px-2 px-lg-5 my-5 d-flex align-items-center justify-content-between">
                     {children}
                 </div>
             </div>
             <div style={{background:backColor}} className="questions-body">
-                <div style={{width: '80%'}} className={'container'}>
+                <div  className={'container questions-body-container'}>
                     <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2, 992: 2}}>
                         <Masonry  gutter={'1.25rem'}>
                             {
