@@ -43,10 +43,10 @@ function Navbar(props) {
                                 }}>
                                     <div className={'navbar-input'}>
                                         <img src={Search} alt=""/>
-                                        <input onChange={onSearch}  value={search} type="text" placeholder="Қидириш"/>
+                                        <input onChange={onSearch} value={search} type="text" placeholder="Қидириш"/>
                                     </div>
                                     {
-                                        search && <SearchCard maxHeight={'300px'} questions={result}/>
+                                        search && <SearchCard maxHeight={'400px'} questions={result}/>
 
                                     }
                                 </div>
