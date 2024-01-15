@@ -28,8 +28,7 @@ function Questions(props) {
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Аҳолининг <strong style={{color: '#60C0E1'}}>ижтимоий ҳимоя
                 </strong> тизими ҳамда
-                    мамлакатда <strong style={{color: '#60C0E1'}}>ijtimoiy
-                    qatlam</strong> учун яратилган дафтарлар бо’йича савол - жавоблар
+                    мамлакатда <strong style={{color: '#60C0E1'}}>ижтимоий қатлам</strong> учун яратилган дафтарлар бўйича савол - жавоблар
                 </p></div>
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type2} alt="picture"/></div>
@@ -38,9 +37,9 @@ function Questions(props) {
                 <div className={'col-md-2'}><h4 style={{color: '#5172B0'}} className={'question-type'}>3</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Ишсиз фуқароларни<strong style={{color: '#5172B0'}}> касб - ҳунарга
-                </strong> о’қитиш ҳамда
+                </strong> ўқитиш ҳамда
                     <strong style={{color: '#5172B0'}}> Миллий малака </strong>
-                    тизими бо’йича савол - жавоблар
+                    тизими бўйича савол - жавоблар
                 </p></div>
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type3} alt="picture"/></div>
@@ -51,7 +50,7 @@ function Questions(props) {
                     Меҳнат <strong style={{color: '#F59487'}} className={'category-small-text'}>бозори,</strong> меҳнат иқтисодиёти ҳамда ҳамда
                     меҳнат
                     <strong style={{color: '#F59487'}} className={'category-small-text'}> ресурслари </strong>
-                    бо’йича  савол - жавоблар
+                    бўйича  савол - жавоблар
 
                 </p></div>
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
@@ -61,7 +60,7 @@ function Questions(props) {
                 <div className={'col-md-2'}><h4 style={{color: '#5E5CA7'}} className={'question-type'}>5</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>Меҳнат ҳуқуқи</strong> ва меҳнат муносабатлари
-                    ҳамда <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>меҳнатни муҳофаза</strong> қилиш бо’йича савол - жавоблар
+                    ҳамда <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>меҳнатни муҳофаза</strong> қилиш бўйича савол - жавоблар
 
 
                 </p></div>
@@ -73,7 +72,7 @@ function Questions(props) {
                 <div className={'col-md-5'}><p className={'question-text '}>
                     <strong style={{color: '#388CB9'}} className={'category-small-text'}> Хавфсиз</strong>,
                     тартибли ва  <strong style={{color: '#388CB9'}} className={'category-small-text'}> қонуний меҳнат</strong>
-                    миграцияси бо’йича савол - жавоблар
+                    миграцияси бўйича савол - жавоблар
                 </p></div>
                 <div className={'col-md-4 d-flex align-items-center justify-content-end'}>
                     <img className={'img-fluid'} src={type6} alt="picture"/></div>

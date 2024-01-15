@@ -38,13 +38,15 @@ function Navbar(props) {
                         </div>
                         <div className="col-12 col-md-5 col-lg-3">
                             <div className='navbar-right'>
-                                <div className="navbar-search">
+                                <div className="navbar-search" onMouseLeave={()=>{
+                                    setSearch('')
+                                }}>
                                     <div className={'navbar-input'}>
                                         <img src={Search} alt=""/>
-                                        <input onChange={onSearch} value={search} type="text" placeholder="Қидириш"/>
+                                        <input onChange={onSearch}  value={search} type="text" placeholder="Қидириш"/>
                                     </div>
                                     {
-                                        search && <SearchCard maxHeight={'400px'} questions={result}/>
+                                        search && <SearchCard maxHeight={'300px'} questions={result}/>
 
                                     }
                                 </div>

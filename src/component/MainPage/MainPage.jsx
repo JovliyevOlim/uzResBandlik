@@ -28,14 +28,16 @@ function MainPage(props) {
             <div className="container">
                 <div  className="row px-2 px-lg-5 mb-5">
                     <div className="col-lg-6">
-                        <h4 style={{color: '#ffffff'}} className={'mainPage-text'}>Меҳнат ва бандлик масалалари бо’йича 460 саволга Жавоб</h4>
+                        <h4 style={{color: '#ffffff'}} className={'mainPage-text'}>Меҳнат ва бандлик масалалари бўйича 460 саволга Жавоб</h4>
                         <p style={{color: '#ffffff'}} className={'mainPage-text2'}>
-                            Меҳнат ва бандлик масалалари бо’йича 460 саволга жавоб берадиган амалий қо’лланма
+                            Меҳнат ва бандлик масалалари бўйича 460 саволга жавоб берадиган амалий қўлланма
                         </p>
                         <div className={'row gap-lg-2 d-flex'}>
                             <div className="col-md-6 col-lg-6 col-xxl-4">
                                 <div className='navbar-right'>
-                                    <div className="navbar-search">
+                                    <div className="navbar-search" onMouseLeave={()=>{
+                                        setSearch('')
+                                    }}>
                                         <div className={'navbar-input'}>
                                             <img src={Search} alt=""/>
                                             <input onChange={onSearch} value={search} type="text" placeholder="Қидириш"/>
@@ -49,7 +51,7 @@ function MainPage(props) {
                             </div>
                             <div className="col-md-3 col-lg-3 col-xxl-4">
                                 <a href={'#category'} className="mainPage-btn">
-                                    Бо’лимлар
+                                    Бўлимлар
                                     <img src={ArrowDown} alt=""/>
                                 </a>
                             </div>

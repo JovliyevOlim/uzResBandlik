@@ -23,7 +23,7 @@ function Footer(props) {
     return (
         <div className={'footer'}>
             <div className="container">
-                <div className="row px-2 px-lg-5 mb-5">
+                <div className="row px-2 px-lg-5 pb-lg-5 mb-5">
                     <div className="col-md-12  rounded-5 bg-white">
                         <div className="row d-flex  align-items-center justify-content-center justify-content-lg-between">
                             <div className="col-12 col-md-12 col-lg-3">
@@ -38,7 +38,9 @@ function Footer(props) {
                             </div>
                             <div className="col-12 col-md-6 col-lg-3">
                                 <div className='navbar-right'>
-                                    <div  className="navbar-search">
+                                    <div  className="navbar-search" onMouseLeave={()=>{
+                                        setSearch('')
+                                    }}>
                                         <div className={'navbar-input'}>
                                             <img src={Search} alt=""/>
                                             <input onChange={onSearch} value={search} type="text" placeholder="Қидириш"/>

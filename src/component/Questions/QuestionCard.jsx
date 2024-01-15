@@ -18,7 +18,7 @@ function QuestionCard({children,backColor,questions}) {
                         <Masonry  gutter={'1.25rem'}>
                             {
                                 questions?.map(item =>
-                                    <div className={'questions-body-card'}>
+                                    <div className={'questions-body-card'} id={`question${item.id}`}>
                                         <div className={'d-flex justify-content-start align-items-center mb-3 gap-4'}>
                                             <div style={{background:backColor}}
                                                 className={'question-number'}>{item.id >= 10 ? item.id : `0${item.id}`}</div>
