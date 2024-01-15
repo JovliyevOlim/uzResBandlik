@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Logo from '../../assets/Logo.svg'
-import Logo2 from '../../assets/UNDPlogo 2.svg'
+import Logo2 from '../../assets/30Years.svg'
+
 import "../../App.css"
 import "./navbar.css"
 import Search from "../../assets/SearchBlack.svg"
@@ -8,7 +9,6 @@ import {useLocation} from "react-router-dom";
 import SearchCard from "../SearchCard/SearchCard";
 import {searchQuestion} from "../Questions/questionsList";
 import {NavHashLink} from "react-router-hash-link";
-
 function Navbar(props) {
 
     const [search, setSearch] = useState('')
@@ -37,7 +37,7 @@ function Navbar(props) {
                             </div>
                         </div>
                         <div className="col-12 col-md-5 col-lg-3">
-                            <div className='navbar-right'>
+                            <div className='navbar-right '>
                                 <div className="navbar-search">
                                     <div className={'navbar-input'}>
                                         <img src={Search} alt=""/>
@@ -45,14 +45,12 @@ function Navbar(props) {
                                     </div>
                                     {
                                         search && <SearchCard maxHeight={'400px'} questions={result}/>
-
                                     }
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-md-2 pt-4 pt-md-1 col-lg-1 d-flex align-items-center">
                             <img className={'navbar-logo2'} src={Logo2} alt="logo2"/>
-
                         </div>
                     </div>
                 </div>
