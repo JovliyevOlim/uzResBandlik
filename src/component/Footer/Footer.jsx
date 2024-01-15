@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './footer.css'
 import Logo from "../../assets/Logo.svg";
 import Search from "../../assets/SearchBlack.svg";
-import {Link, useLocation} from "react-router-dom";
+import {Link, useLocation, useNavigate} from "react-router-dom";
 import SearchCard from "../SearchCard/SearchCard";
 import {searchQuestion} from "../Questions/questionsList";
 import {NavHashLink} from "react-router-hash-link";
@@ -21,7 +21,7 @@ function Footer(props) {
     }
 
     return (
-        <div className={'footer'}>
+        <div className={'footer'} >
             <div className="container">
                 <div className="row px-2 px-lg-5 pb-lg-5 mb-5">
                     <div className="col-md-12  rounded-5 bg-white">

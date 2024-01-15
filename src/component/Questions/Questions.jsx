@@ -14,7 +14,7 @@ function Questions(props) {
     return (
         <>
             <QuestionCard questions={type1Questions} backColor={'#64BFA7'}>
-                <div className={'col-md-2'}>
+                <div className={'col-md-2'} id={'questionType1'}>
                     <h4 style={{color: '#64BFA7'}} className={'question-type'}>1</h4>
                 </div>
                 <div className={'col-md-5'}><p className={'question-text'}>
@@ -24,7 +24,8 @@ function Questions(props) {
                     <img className={'img-fluid'} src={type1} alt="picture"/></div>
             </QuestionCard>
             <QuestionCard questions={type2Questions} backColor={'#60C0E1'}>
-                <div className={'col-md-2'}><h4 style={{color: '#60C0E1'}} className={'question-type'}>2</h4></div>
+                <div className={'col-md-2'} id={'questionType2'}>
+                    <h4 style={{color: '#60C0E1'}} className={'question-type'}>2</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Аҳолининг <strong style={{color: '#60C0E1'}}>ижтимоий ҳимоя
                 </strong> тизими ҳамда
@@ -34,7 +35,7 @@ function Questions(props) {
                     <img className={'img-fluid'} src={type2} alt="picture"/></div>
             </QuestionCard>
             <QuestionCard questions={type3Questions} backColor={'#5172B0'}>
-                <div className={'col-md-2'}><h4 style={{color: '#5172B0'}} className={'question-type'}>3</h4></div>
+                <div className={'col-md-2'} id={'questionType3'}><h4 style={{color: '#5172B0'}} className={'question-type'}>3</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Ишсиз фуқароларни<strong style={{color: '#5172B0'}}> касб - ҳунарга
                 </strong> ўқитиш ҳамда
@@ -45,7 +46,7 @@ function Questions(props) {
                     <img className={'img-fluid'} src={type3} alt="picture"/></div>
             </QuestionCard>
             <QuestionCard questions={type4Questions} backColor={'#F59487'}>
-                <div className={'col-md-2'}><h4 style={{color: '#F59487'}} className={'question-type'}>4</h4></div>
+                <div className={'col-md-2'} id={'questionType4'}><h4 style={{color: '#F59487'}} className={'question-type'}>4</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     Меҳнат <strong style={{color: '#F59487'}} className={'category-small-text'}>бозори,</strong> меҳнат иқтисодиёти ҳамда ҳамда
                     меҳнат
@@ -57,7 +58,7 @@ function Questions(props) {
                     <img className={'img-fluid'} src={type4} alt="picture"/></div>
             </QuestionCard>
             <QuestionCard questions={type5Questions} backColor={'#5E5CA7'}>
-                <div className={'col-md-2'}><h4 style={{color: '#5E5CA7'}} className={'question-type'}>5</h4></div>
+                <div className={'col-md-2'} id={'questionType5'}><h4 style={{color: '#5E5CA7'}} className={'question-type'}>5</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>Меҳнат ҳуқуқи</strong> ва меҳнат муносабатлари
                     ҳамда <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>меҳнатни муҳофаза</strong> қилиш бўйича савол - жавоблар
@@ -68,7 +69,7 @@ function Questions(props) {
                     <img className={'img-fluid'} src={type5} alt="picture"/></div>
             </QuestionCard>
             <QuestionCard questions={type6Questions} backColor={'#388CB9'}>
-                <div className={'col-md-2'}><h4 style={{color: '#388CB9'}} className={'question-type'}>6</h4></div>
+                <div className={'col-md-2'} id={'questionType6'}><h4 style={{color: '#388CB9'}} className={'question-type'}>6</h4></div>
                 <div className={'col-md-5'}><p className={'question-text '}>
                     <strong style={{color: '#388CB9'}} className={'category-small-text'}> Хавфсиз</strong>,
                     тартибли ва  <strong style={{color: '#388CB9'}} className={'category-small-text'}> қонуний меҳнат</strong>

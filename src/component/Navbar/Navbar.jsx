@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Logo from '../../assets/Logo.svg'
-import Logo2 from '../../assets/UNDPlogo 2.svg'
+import Logo2 from '../../assets/30Years.svg'
 import "../../App.css"
 import "./navbar.css"
 import Search from "../../assets/SearchBlack.svg"

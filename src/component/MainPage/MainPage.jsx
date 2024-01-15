@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './mainPage.css'
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import Search from "../../assets/SearchBlack.svg";
 import ArrowDown from "../../assets/ArrowDownWhite.svg"
 import MainPicture from '../../assets/Group 28.svg'
@@ -28,7 +28,7 @@ function MainPage(props) {
             <div className="container">
                 <div  className="row px-2 px-lg-5 mb-5">
                     <div className="col-lg-6">
-                        <h4 style={{color: '#ffffff'}} className={'mainPage-text'}>Меҳнат ва бандлик масалалари бўйича 460 саволга Жавоб</h4>
+                        <h4 style={{color: '#ffffff'}} className={'mainPage-text'}>Меҳнат ва бандлик масалалари бўйича 460 саволга жавоб</h4>
                         <p style={{color: '#ffffff'}} className={'mainPage-text2'}>
                             Меҳнат ва бандлик масалалари бўйича 460 саволга жавоб берадиган амалий қўлланма
                         </p>

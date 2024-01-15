@@ -1,27 +1,37 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './question.css'
 import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
+import upDown from "../../assets/Frame 50.svg";
+import {useLocation, useNavigate} from "react-router-dom";
+import {HashLink} from "react-router-hash-link";
+
+
+function QuestionCard({children, backColor, questions}) {
 
 
 
-function QuestionCard({children,backColor,questions}) {
+
+
+
+
+
     return (
-        <>
+        <section id={'question'}>
             <div className="container">
-                <div  className="row px-2 px-lg-5 my-5 d-flex align-items-center justify-content-between">
+                <div className="row px-2 px-lg-5 my-5 d-flex align-items-center justify-content-between">
                     {children}
                 </div>
             </div>
-            <div style={{background:backColor}} className="questions-body">
-                <div  className={'container questions-body-container'}>
+            <div style={{background: backColor}} className="questions-body">
+                <div className={'container questions-body-container'}>
                     <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2, 992: 2}}>
-                        <Masonry  gutter={'1.25rem'}>
+                        <Masonry gutter={'1.25rem'}>
                             {
                                 questions?.map(item =>
                                     <div className={'questions-body-card'} id={`question${item.id}`}>
                                         <div className={'d-flex justify-content-start align-items-center mb-3 gap-4'}>
-                                            <div style={{background:backColor}}
-                                                className={'question-number'}>{item.id >= 10 ? item.id : `0${item.id}`}</div>
+                                            <div style={{background: backColor}}
+                                                 className={'question-number'}>{item.id >= 10 ? item.id : `0${item.id}`}</div>
                                             <div className={'question-text-btn'}>Савол:</div>
                                         </div>
                                         <p className={'question-title'}>
@@ -50,7 +60,9 @@ function QuestionCard({children,backColor,questions}) {
                     </ResponsiveMasonry>
                 </div>
             </div>
-        </>
+
+
+        </section>
     );
 }
 
