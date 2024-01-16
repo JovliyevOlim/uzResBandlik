@@ -23,7 +23,7 @@ function Category() {
                     <div className={'col-md-6 col-lg-6 col-xl-4 px-3'}>
                         <HashLink style={{textDecoration: 'none'}} to={'/#questionType1'}>
                             <CategoryCard picture={type1}>
-                                Аҳоли бандлиги ва аҳоли <strong style={{color: '#64BFA7'}}
+                                1. Аҳоли бандлиги ва аҳоли <strong style={{color: '#64BFA7'}}
                                                                 className={'category-small-text'}>бандлик даражасини
                             </strong> оширишга қаратилган савол - жавоблар
                             </CategoryCard>
@@ -32,7 +32,7 @@ function Category() {
                     <div className={'col-md-6 col-lg-6 col-xl-4 px-3'}>
                         <HashLink style={{textDecoration: 'none'}} to={'/#questionType2'}>
                             <CategoryCard picture={type2}>
-                                Аҳолининг <strong style={{color: '#60C0E1'}} className={'category-small-text'}>ижтимоий
+                                2. Аҳолининг <strong style={{color: '#60C0E1'}} className={'category-small-text'}>ижтимоий
                                 ҳимоя
                             </strong> тизими ҳамда
                                 мамлакатда <strong style={{color: '#60C0E1'}} className={'category-small-text'}>ижтимоий
@@ -44,7 +44,7 @@ function Category() {
                     <div className={'col-md-6 col-lg-6 col-xl-4 px-3'}>
                         <HashLink style={{textDecoration: 'none'}} to={'/#questionType3'}>
                             <CategoryCard picture={type3}>
-                                Ишсиз фуқароларни<strong style={{color: '#5172B0'}}
+                                3. Ишсиз фуқароларни<strong style={{color: '#5172B0'}}
                                                          className={'category-small-text '}> касб - ҳунарга
                             </strong> ўқитиш ҳамда
                                 <strong style={{color: '#5172B0'}} className={'category-small-text '}> Миллий
@@ -56,7 +56,7 @@ function Category() {
                     <div className={'col-md-6 col-lg-6 col-xl-4 px-3'}>
                         <HashLink style={{textDecoration: 'none'}} to={'/#questionType4'}>
                             <CategoryCard picture={type4}>
-                                Меҳнат <strong style={{color: '#F59487'}}
+                                4. Меҳнат <strong style={{color: '#F59487'}}
                                                className={'category-small-text'}>бозори,</strong> меҳнат иқтисодиёти
                                 ҳамда ҳамда меҳнат
                                 <strong style={{color: '#F59487'}}
@@ -70,7 +70,7 @@ function Category() {
 
                         <HashLink style={{textDecoration: 'none'}} to={'/#questionType5'}>
                             <CategoryCard picture={type5}>
-                                <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>Меҳнат
+                                5.<strong style={{color: '#5E5CA7'}} className={'category-small-text'}> Меҳнат
                                     ҳуқуқи</strong> ва меҳнат муносабатлари
                                 ҳамда <strong style={{color: '#5E5CA7'}} className={'category-small-text'}>меҳнатни
                                 муҳофаза</strong> қилиш бўйича савол - жавоблар
@@ -80,7 +80,7 @@ function Category() {
                     <div className={'col-md-6 col-lg-6 col-xl-4 px-3'}>
                         <HashLink style={{textDecoration: 'none'}} to={'/#questionType6'}>
                             <CategoryCard picture={type6}>
-                                <strong style={{color: '#388CB9'}} className={'category-small-text'}> Хавфсиз</strong>,
+                                6.<strong style={{color: '#388CB9'}} className={'category-small-text'}> Хавфсиз</strong>,
                                 тартибли ва <strong style={{color: '#388CB9'}}
                                                     className={'category-small-text'}> қонуний меҳнат</strong>
                                 миграцияси бўйича савол - жавоблар
